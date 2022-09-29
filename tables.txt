@@ -1,0 +1,44 @@
+create table admin(
+aname varchar(30),
+apss varchar(30)
+);
+
+
+create table faculty(
+facultyid int Primary key,
+facultyname varchar(30) NOT NULL,
+facultyadd varchar(30),
+mobile varchar(30),
+email varchar(30),
+username varchar(30),
+password varchar(30)
+);
+
+create table course(
+courseid int primary key,
+coursename varchar(30),
+fee int,
+coursedesc varchar(30)
+);
+
+create table batch(
+batchid int primary key,
+courseid int,
+facultyid int,
+numstud int,
+startdate date,
+duration int,
+FOREIGN KEY(courseid) REFERENCES course(courseid),
+FOREIGN KEY(facultyid) REFERENCES faculty(facultyid)
+);
+
+create table courseplan(
+     planid int primary key,
+     batchid int,
+     daynumber int,
+     topic varchar(30),
+     status varchar(30),
+     FOREIGN KEY(batchid) REFERENCES batch(batchid)
+     );
+
+
