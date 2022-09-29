@@ -1,0 +1,4 @@
+
+Aim : It is a project to create Course Monitoring System using java and sql.
+
+Team Member : Vivek Raj
