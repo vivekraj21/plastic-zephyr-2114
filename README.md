@@ -1,6 +1,6 @@
 # plastic-zephyr-2114
 
-![p1](https://www.eleapsoftware.com/wp-content/uploads/2020/02/17-Course-Management-System--scaled.jpg)
+![p1](https://trainingorchestra.com/wp-content/uploads/2017/10/course-management-system.png)
 
 # Construct week project SB101 --- > 
 # COURSE MANAGEMENT SYSTEM
